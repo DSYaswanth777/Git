@@ -21,6 +21,15 @@
     <p>git add .</p>
     <p>git commit -m "required message"</p>
     <p>git push origin master</p>
-
+    <h3>To remove any cached files which present in bin folder which may generated while program runtime by using below command we can remove only in git bash or git repo but not in local machine</h3>
+    <p>git -rm cached '.classpath'</p>
+    <h3>So in case we wanted to remove from the staging area all files from specific directory, we have to</h3>
+    <p>git rm -r --cached bin/</p>
+    <p>it removes all files from our specfic directory</p>
+    <h3>To ignore such files every time we don;t need to type such command every time </h3>
+    <h4> To overcome this we use .gitignore in that we specificy what we want ignore every time
+        to specific a file use .extension file name u need
+        to specific directory use name/
+    </h4>
 </body>
 </html>
